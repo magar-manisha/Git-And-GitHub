@@ -1,6 +1,6 @@
-#Internship
+# Internship
 <br>
-##Git-And-GitHub
+## Git-And-GitHub
 - Branching
 - Staging
 - Git Tags
