@@ -54,5 +54,16 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
      2. Manually edit conflicting files
      3. add resolved files
      4. Continue merging
+6. **Rebase and reflog**
+    Rebase allows you to move a branch to a new starting point
+    Git reflog is a command that shows you the history of your commits
+```bash
+   git rebase main
+   git rebase --continue
+   git reflog
+   git reflog <commit-hash>
+   git reset --hard <commit-hash>
+   git reset --hard HEAD@{1}
+```
 
   
