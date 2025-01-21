@@ -1,7 +1,7 @@
 # Internship
 This repository documents my internship first journey , including the tasks, learnings, and progress made each day. Each day focuses on a specific topic to enhance my skills and contribute effectively to the project.
 
----
+
 
 ## Day 1: Git and GitHub
 ### Overview
