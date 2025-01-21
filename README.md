@@ -2,7 +2,8 @@
 This repository documents my internship first journey , including the tasks, learnings, and progress made each day. Each day focuses on a specific topic to enhance my skills and contribute effectively to the project.
 
 ## Day 1: Git and GitHub
-The focus of Day 1 is to understand the Git and GitHub, which are essential tools for version control and collaboration. The tasks include learning about branching, staging, tagging, creating PRs/MRs, resolving conflicts, and more.
+The focus of Day 1 is to understand the Git and GitHub, which are essential tools for version control and collaboration. The tasks include learning about branching, staging, tagging, creating PRs/MRs, resolving conflicts, and more. For more details, you can refer to a helpful guide provided by [Chai Docs](https://docs.chaicode.com/git-and-github/) and [Dangit](https://dangitgit.com/en).
+
 
 ### Topics Covered
 1. **Branching**
@@ -24,6 +25,8 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
   git status                      
   git commit -m "Commit message"  
   git commit -am "Commit message" 
+  git commit --amend
+
 ```
 3. **Git diff, stash, Tags**
    Diff shows the differences between two commits.
@@ -64,6 +67,7 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    git reflog <commit-hash>
    git reset --hard <commit-hash>
    git reset --hard HEAD@{1}
+   git reset HEAD~ --hard
 ```
 
   
