@@ -50,9 +50,9 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
 5. **Conflict Resolution**
    Resolve conflicts when changes overlap between branches.
    - **Steps**:
-  1. Attempt to merge
-  2. Manually edit conflicting files
-  3. add resolved files
-  4. Continue merging
+     1. Attempt to merge
+     2. Manually edit conflicting files
+     3. add resolved files
+     4. Continue merging
 
   
