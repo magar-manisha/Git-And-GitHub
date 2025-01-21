@@ -30,10 +30,29 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    Stash is a way to save your changes in a temporary location.
    Tags mark specific points in history, such as releases.
 ```bash
-   git diff
+   git diff --staged
+   git diff branch-name-one..branch-name-two
    git stash
-   git tag
+   git stash list
    git tag <tag-name>
+   git tag -a <tag-name> -m "Tag message"
+   git push origin <tag-name>
+   git tag
+   git show <tag-name>
 ```
+4. **PR (Pull Request) / MR (Merge Request) creation**
+   Pull the code means that you are going to download the code from the remote repository and merge it with your local repository.
+```bash
+   git fetch <remote-name>
+   git pull <remote-name> <branch-name> or git pull origin main
+   git merge <branch-name>
+```
+5. **Conflict Resolution**
+   Resolve conflicts when changes overlap between branches.
+   - **Steps**:
+  1. Attempt to merge
+  2. Manually edit conflicting files
+  3. add resolved files
+  4. Continue merging
 
   
