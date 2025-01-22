@@ -68,6 +68,7 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
      4. Continue merging
 ```bash
    git commit --amend
+   git reset
    git reset HEAD~ --soft
    git reset HEAD~ --hard
    git reset --hard <commit-hash>
