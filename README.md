@@ -15,7 +15,8 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
   git switch <branch-name>            
   git switch -c <branch-name>         
   git branch -m <old-name> <new-name> 
-  git branch -d <branch-name>         
+  git branch -d <branch-name>     
+  git log    
 ```
 2. **Staging**
   Preparing changes to be committed.
@@ -37,6 +38,8 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    git diff branch-name-one..branch-name-two
    git stash
    git stash list
+   git stash pop
+   git stash drop
    git tag <tag-name>
    git tag -a <tag-name> -m "Tag message"
    git push origin <tag-name>
@@ -44,20 +47,23 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    git show <tag-name>
 ```
 4. **PR (Pull Request) / MR (Merge Request) creation**
+   PR and MR lets you tell others about changes you've pushed/merge to a branch in a repository on GitHub
+
+5. **Pull and Merge**
    Pull the code means that you are going to download the code from the remote repository and merge it with your local repository.
 ```bash
    git fetch <remote-name>
    git pull <remote-name> <branch-name> or git pull origin main
    git merge <branch-name>
 ```
-5. **Conflict Resolution**
+6. **Conflict Resolution**
    Resolve conflicts when changes overlap between branches.
    - **Steps**:
      1. Attempt to merge
      2. Manually edit conflicting files
      3. add resolved files
      4. Continue merging
-6. **Rebase and reflog**
+7. **Rebase and reflog**
     Rebase allows you to move a branch to a new starting point
     Git reflog is a command that shows you the history of your commits
 ```bash
@@ -69,5 +75,11 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    git reset --hard HEAD@{1}
    git reset HEAD~ --hard
 ```
-
-  
+8. **TRACKING PATH CHANGES**
+   Versioning file removes and path changes
+```bash
+   git rm [file]
+   git mv [existing-path] [new-path]
+```
+9. **Fork**
+   A fork is a new repository that shares code and visibility settings with the original "upstream" repository. It is a rough copy.
