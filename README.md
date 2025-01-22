@@ -2,8 +2,8 @@
 This repository documents my internship first journey , including the tasks, learnings, and progress made each day. Each day focuses on a specific topic to enhance my skills and contribute effectively to the project.
 
 ## Internship Documentation - Day 1
-## Date: <span>2025/01/21</span>
-## Focus: <span>Git and GitHub</span>
+### Date: 2025/01/21
+### Focus: Git and GitHub
 ### Learning Objectives:
 The focus of Day 1 is to understand the Git and GitHub, which are essential tools for version control and collaboration. The tasks include learning about branching, staging, tagging, creating PRs/MRs, resolving conflicts, and more. For more details, you can refer to a helpful guide provided by [Chai Docs](https://docs.chaicode.com/git-and-github/) and [Dangit](https://dangitgit.com/en).
 ### Topics Covered
@@ -94,8 +94,8 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    A fork is a new repository that shares code and visibility settings with the original "upstream" repository. It is a rough copy.
 
 ## Internship Documentation - Day 2
-**Date**: 2025/01/22 <br>
-**Focus**: HTML, CSS
+### Date: 2025/01/22
+### Focus: HTML, CSS
 ### Learning Objectives:
 On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Accessibility, and styling with CSS and SASS. The tasks also included exploring important practices such as Linting and Code Formatting to ensure clean and maintainable code.
 ### Topics Covered
@@ -118,4 +118,11 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
    7. Add Captions and Transcripts
    8. Responsive Design
    so on..
+3. **CSS(SASS)**
+SASS is a CSS preprocessor that adds features like variables, nested rules, and mixins, making the process of writing CSS more efficient and maintainable.
+4. **Linting and Code Formatting**
+Linting tools analyze the code for potential errors, while code formatting tools ensure the code adheres to a consistent style.
+   - **Tools Used**
+   1. ESLint for JavaScript/HTML linting.
+   2. Prettier for code formatting.
 
