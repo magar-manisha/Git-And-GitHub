@@ -27,7 +27,6 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
   git status                      
   git commit -m "Commit message"  
   git commit -am "Commit message" 
-  git commit --amend
 
 ```
 3. **Git diff, stash, Tags**
@@ -67,6 +66,14 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
      2. Manually edit conflicting files
      3. add resolved files
      4. Continue merging
+```bash
+   git commit --amend
+   git reset HEAD~ --soft
+   git reset HEAD~ --hard
+   git reset --hard <commit-hash>
+   git reset --hard HEAD@{1}
+   
+```
 7. **Rebase and reflog**
     Rebase allows you to move a branch to a new starting point
     Git reflog is a command that shows you the history of your commits
@@ -75,15 +82,12 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
    git rebase --continue
    git reflog
    git reflog <commit-hash>
-   git reset --hard <commit-hash>
-   git reset --hard HEAD@{1}
-   git reset HEAD~ --hard
 ```
 8. **TRACKING PATH CHANGES**
    Versioning file removes and path changes
 ```bash
-   git rm [file]
-   git mv [existing-path] [new-path]
+   git rm <file>
+   git mv <existing-path> <new-path>
 ```
 9. **Fork**
    A fork is a new repository that shares code and visibility settings with the original "upstream" repository. It is a rough copy.
@@ -95,7 +99,7 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
 On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Accessibility, and styling with CSS and SASS. The tasks also included exploring important practices such as Linting and Code Formatting to ensure clean and maintainable code.
 ### Topics Covered
 1. **Semantic HTML**
-   Semantic elements in HTML are tags that clearly describe their meaning and purpose. Example - header, nav, main, footer, article, section
+   Semantic elements in HTML are tags that clearly describe their meaning and purpose. Example - header, h1, nav, main, article, section, footer and so on...
    - **Benefits**
    1. Code Readability
    2. Accessibility
