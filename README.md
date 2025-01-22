@@ -124,4 +124,3 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
    - **Tools Used**
       1. ESLint for JavaScript/HTML linting.
       2. Prettier for code formatting.
-
