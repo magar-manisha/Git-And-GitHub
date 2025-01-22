@@ -102,27 +102,26 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
 1. **Semantic HTML**
    Semantic elements in HTML are tags that clearly describe their meaning and purpose. Example - `<header>`, `<h1>`, `<nav>`, `<main>`,` <article>`, `<section>`, `<footer>` and so on...
    - **Benefits**
-   1. Code Readability
-   2. Accessibility
-   3. Better SEO
-   4. Consistent Styling
+      1. Code Readability
+      2. Accessibility
+      3. Better SEO
+      4. Consistent Styling
 2. **Accessibility**
    Making web content accessible to all users, including those with disabilities. [Refer](https://youtu.be/e2nkq3h1P68?si=p3M9_oSqG6-s_fHc)
-   - **Practical Steps**
-   1. Use Semantic HTML (`<button>`, `<div>`)
-   2. Text and Colour contrast
-   3. Provide Link and Alternative Text 
-   4. Heading, List and Text size
-   5. Keyboard Navigation
-   6. Use ARIA Roles and Attributes
-   7. Add Captions and Transcripts
-   8. Responsive Design
-   so on..
+      1. Use Semantic HTML (`<button>`, `<div>`)
+      2. Text and Colour contrast
+      3. Provide Link and Alternative Text 
+      4. Heading, List and Text size
+      5. Keyboard Navigation
+      6. Use ARIA Roles and Attributes
+      7. Add Captions and Transcripts
+      8. Responsive Design
+      so on..
 3. **CSS(SASS)**
-SASS is a CSS preprocessor that adds features like variables, nested rules, and mixins, making the process of writing CSS more efficient and maintainable.
+   SASS(Syntactically Awesome Stylesheets) is a CSS preprocessor that adds features like variables, nested rules, and mixins, making the process of writing CSS more efficient and maintainable.
 4. **Linting and Code Formatting**
-Linting tools analyze the code for potential errors, while code formatting tools ensure the code adheres to a consistent style.
+   Linting tools analyze the code for potential errors, while code formatting tools ensure the code adheres to a consistent style.
    - **Tools Used**
-   1. ESLint for JavaScript/HTML linting.
-   2. Prettier for code formatting.
+      1. ESLint for JavaScript/HTML linting.
+      2. Prettier for code formatting.
 
