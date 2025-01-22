@@ -48,9 +48,12 @@ The focus of Day 1 is to understand the Git and GitHub, which are essential tool
 ```
 4. **PR (Pull Request) / MR (Merge Request) creation**
    PR and MR lets you tell others about changes you've pushed/merge to a branch in a repository on GitHub
-
+   - **Process**:
+      1. Create a PR/Mr after pushing changes to a feature branch.
+      2. The PR is reviewed by others on the team (typically collaborators or maintainers).
+      3. Once approved, the changes are merged into the target branch.
 5. **Pull and Merge**
-   Pull the code means that you are going to download the code from the remote repository and merge it with your local repository.
+   Pull the code means that you are going to fetch and download the code from the remote repository and merge it with your local repository.
 ```bash
    git fetch <remote-name>
    git pull <remote-name> <branch-name> or git pull origin main
