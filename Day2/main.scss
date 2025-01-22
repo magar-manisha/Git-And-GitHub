@@ -2,7 +2,24 @@
 $primary-color: #d3d3d3;
 $accent-color: #f79571;
 $text-color: #ffff;
+$font-weights: (
+    "regular": 300,
+    "medium": 500,
+    "bold": 900
+);
 
 body{
     background-color: $primary-color;
+}
+
+#guess{
+    font-weight: map-get($font-weights, bold );
+}
+
+.footer{
+    width: 80%;
+    margin: 2rem;
+    &__paragraph{
+        font-weight: map-get($font-weights, bold);
+    }
 }
