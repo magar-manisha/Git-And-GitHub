@@ -7,7 +7,11 @@
 </head>
 <body>
     <h1>This is a form keeping Accessibility in mind</h1>
-    <form>
+    <form id="contactForm" action="" method="POST" >
+        <fieldset>
+
+        <legend id="formTitle">Contact Form</legend>
+
         <label for="name" >Name: &ensp;</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required/>
 
@@ -39,6 +43,7 @@
         <br>
 
         <button type="submit" id="submitButton" onclick="buttonClick()" aria-controls="submitButton">Submmit</button>
+        </fieldset>
     </form>
     <script src="/Day2/index.js"></script>
 </body>
