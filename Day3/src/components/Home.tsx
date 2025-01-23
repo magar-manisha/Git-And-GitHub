@@ -81,7 +81,7 @@ const Home = () => {
   // };
 
   return (
-    <div>
+    <div style={{border:"2px solid", width: "50%",justifyItems:"center"}}>
       <h1>Day 3 - Ts/Js</h1>
 
       <p>Count: {count}</p>

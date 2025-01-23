@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface student{
     name: string;
     roll: string;
@@ -34,4 +36,15 @@ export interface Transactionname{
 export interface BoolCheck<T>{
     arg: T;
     is: boolean;
+}
+
+export interface sectionProps{
+    title?: string,
+    children: ReactNode,
+}
+
+export interface listProp<T>{
+    items: T[],
+    render: (item:T) => ReactNode
+
 }
