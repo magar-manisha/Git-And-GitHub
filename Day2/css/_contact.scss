@@ -1,5 +1,12 @@
 @import './variables';
 
-#contactForm{
+.contactForm{
     background-color: $accent-color;
+    padding: 1rem;
+}
+
+
+.toggleList{
+    display: flex;
+    color: black;
 }

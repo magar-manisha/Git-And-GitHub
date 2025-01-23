@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+.contactForm {
+  background-color: #f79571;
+  padding: 1rem;
+}
+
+.toggleList {
+  display: flex;
+  color: black;
+}
+
 body {
   padding: 3rem;
 }
@@ -18,8 +28,10 @@ h1 {
   justify-content: center;
 }
 
-nav, ul, li, a {
+.navlist {
   display: flex;
+}
+.navlist li a {
   padding: 5px 2rem 5px 3px;
   text-decoration: none;
   color: white;
@@ -38,15 +50,19 @@ nav, ul, li, a {
   width: 80%;
   margin: 2rem;
 }
-.footer .footer__paragraph, .footer .footer__paragraph2 {
+.footer__paragraph1, .footer__paragraph2 {
   font-weight: 900;
 }
-.footer .footer__paragraph:hover, .footer .footer__paragraph2:hover {
+.footer__paragraph1:hover, .footer__paragraph2:hover {
   color: #f79571;
 }
 #actress .actressPara:hover {
   background-color: #eaace4;
   display: inline;
+}
+
+.mainSec {
+  margin-bottom: 2rem;
 }
 
 .imageBox {
@@ -68,4 +84,10 @@ nav, ul, li, a {
   align-items: center;
   flex-direction: row;
   font-size: larger;
+}
+
+#contact {
+  font-weight: 900;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
