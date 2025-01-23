@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d3d3d3;
+  padding: 3rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+nav, ul, li, a {
+  display: flex;
+  padding: 5px 2rem 5px 3px;
+  text-decoration: none;
+  color: black;
+}
+
+#guess {
+  font-weight: 900;
+}
+
+.footer {
+  width: 80%;
+  margin: 2rem;
+}
+.footer .footer__paragraph {
+  font-weight: 900;
+}
+
+#actress .actressPara:hover {
+  background-color: #eaace4;
+  display: inline;
+}
+
+.imageBox {
+  display: flex;
+  height: 50%;
+  padding-top: 1rem;
+}
+
+.imgDescription {
+  padding-left: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}/*# sourceMappingURL=main.css.map */
