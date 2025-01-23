@@ -118,7 +118,8 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
       8. Responsive Design
       so on..
 3. **CSS(SASS)**
-   SASS(Syntactically Awesome Stylesheets) is a CSS preprocessor that adds **features** like variables, nested rules, and mixins, making the process of writing CSS more efficient and maintainable.
+   SASS(Syntactically Awesome Stylesheets) is a CSS preprocessor that adds **features** like variables, map, partial, function nested rules, operation, import, export, mixins and many more making the process of writing CSS more efficient and maintainable.
+   Some resources: [youtube](https://youtu.be/_a5j7KoflTs?si=DXf8cAp-aFh_t5k3) and [Docs](https://sass-lang.com/documentation/)
 4. **Linting and Code Formatting**
    Linting tools analyze the code for potential errors, while code formatting tools ensure the code adheres to a consistent style.
    - **Tools Used**

@@ -1,6 +1,7 @@
 
 @import './resets';
 @import './variables';
+@import './contact';
 
 @function weight($weight-name){
     @return map-get($font-weights, $weight-name );
