@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import { student, employe, actor } from "../types/type";
 
 const Home = () => {
   console.log("this is home")
@@ -8,14 +8,52 @@ const Home = () => {
   const [num2, setNum2] = useState<string>('')
   const [sumval, setSum] = useState<number>(0)
 
+  const age: number | string = 32;
+  
+  const numList : number[] = [1, 4, 1, 2];
+
+  const student : student = {
+    "name":"manisha",
+    "roll":"23",
+    "age": 22
+  }
+  
+  const employe : employe = {
+    "name":"manisha",
+    "phoneNo":"977777",
+    "salary": 220
+  }
+
+  const leeYoung : actor = {
+    "name":"leeYoung",
+    "phoneNo":"9779877001",
+    "equipment": ['guitar', 45, "makeup"]
+  }
+
   const sum = () =>{
-    if(num1 === '' && num2 === ''){
+    if(typeof num1 == "string" && typeof num2 == 'string'){
       setSum(0);
+      return;
     }
     const a: number = parseInt(num1);
     const b: number = parseInt(num2);
     setSum(a+b) ;
   }
+
+  const sub = (num1: number, num2: number): number =>{
+    return num1 - num2
+
+  }
+
+  const actor = ( ac: actor) : boolean =>{
+    if(ac.name != 'leeYoung'){
+      return false;
+    }
+    return true;
+
+  }
+
+
 
   return (
     <div>
@@ -38,6 +76,18 @@ const Home = () => {
       <br/>
       <button onClick={sum}>Sum number</button>
       <p>Sum: {sumval} </p>
+
+      <hr/>
+
+      <p>Age: {age}</p>
+      <p>Sub: {sub(7,4)}</p>
+
+      <hr/>
+
+      {numList.map((item)=> <p>This is List of number {item + 2}</p>)}
+      <p>Age from object: {student.age}</p>
+      <p>phoneNo from object: {employe.phoneNo}</p>
+      <p>Boolean: {actor(leeYoung) ? "It is true" : "It is false"}</p>
     </div>
   )
 }
