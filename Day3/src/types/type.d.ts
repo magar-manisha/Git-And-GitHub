@@ -9,9 +9,29 @@ export type employe = {
     phoneNo: string;
     salary: number;
 }
+type stringornumber = (string | number)[]
 
 export type actor = {
     name: string;
     phoneNo?: string;
-    equipment: (number | string)[];
+    equipment: stringornumber;
+}
+
+export interface Transactionobj{
+    readonly [index: string]:number
+    pizza: number;
+    book: number;
+    job: number;
+}
+
+export interface Transactionname{
+    name: string
+    pizza: number;
+    book: number;
+    job: number;
+}
+
+export interface BoolCheck<T>{
+    arg: T;
+    is: boolean;
 }
