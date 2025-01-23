@@ -10,6 +10,11 @@ body {
   width: 80%;
   margin: 2rem;
 }
-.footer__paragraph {
+.footer .footer__paragraph {
   font-weight: 900;
+}
+
+#actress .actressPara:hover {
+  background-color: #eaace4;
+  display: inline;
 }/*# sourceMappingURL=main.css.map */

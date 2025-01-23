@@ -2,6 +2,7 @@
 $primary-color: #d3d3d3;
 $accent-color: #f79571;
 $text-color: #ffff;
+$text-onhover: #eaace4;
 $font-weights: (
     "regular": 300,
     "medium": 500,
@@ -19,7 +20,16 @@ body{
 .footer{
     width: 80%;
     margin: 2rem;
-    &__paragraph{
+
+    #{&}__paragraph{
         font-weight: map-get($font-weights, bold);
     }
+}
+
+#actress{
+    .actressPara:hover{
+        background-color: $text-onhover;
+        display: inline;
+    }
+    
 }

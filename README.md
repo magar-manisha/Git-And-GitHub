@@ -107,7 +107,7 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
       3. Better SEO
       4. Consistent Styling
 2. **Accessibility**
-   Making web content accessible to all users, including those with disabilities. [Refer](https://youtu.be/e2nkq3h1P68?si=p3M9_oSqG6-s_fHc)
+   Making web content accessible to all users, including those with disabilities. Some resources: [youTube](https://youtu.be/e2nkq3h1P68?si=p3M9_oSqG6-s_fHc) and [Docs](https://www.w3.org/TR/html-aria/)
       1. Use Semantic HTML (`<button>`, `<div>`)
       2. Text and Colour contrast
       3. Provide Link and Alternative Text 
