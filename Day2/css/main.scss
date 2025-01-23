@@ -6,9 +6,33 @@
     @return map-get($font-weights, $weight-name );
 }
 
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light-theme: true){
+    @if $light-theme{
+        background-color: $primary-color;
+        color: $text-color;
+    }
+
+}
+
+@mixin mobile{
+    @media(max-width: $mobile) {
+        @content;
+    }
+}
+
 body{
-    background-color: $primary-color;
     padding: 3rem;
+}
+
+.light{
+    @include theme(true)
 }
 
 h1{
@@ -20,7 +44,12 @@ nav,ul,li,a{
     display: flex;
     padding: 5px 2rem 5px 3px;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.mainArticle{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #guess{
@@ -31,9 +60,24 @@ nav,ul,li,a{
     width: 80%;
     margin: 2rem;
 
-    #{&}__paragraph{
+
+    #{&}__paragraph1{
         font-weight: weight(bold);
+
+        &:hover{
+            color: $accent-color;
+        }
     }
+
+    #{&}__paragraph2{
+        @extend .footer__paragraph;
+
+        &:hover{
+            background-color: $accent-color;
+        }
+       
+    }
+
 }
 
 #actress{
@@ -48,13 +92,15 @@ nav,ul,li,a{
     display: flex;
     height: 50%;
     padding-top:1rem ;
+    @include mobile{
+        flex-direction: column;
+    }
 }
 
 .imgDescription{
     padding-left: 5px;
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter(row);
     font-size: larger;
 }
+

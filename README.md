@@ -113,12 +113,12 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
       3. Provide Link and Alternative Text 
       4. Heading, List and Text size
       5. Keyboard Navigation
-      6. Use ARIA Roles and Attributes
+      6. Use ARIA(Accessible Rich Internet Applications) Roles and Attributes
       7. Add Captions and Transcripts
       8. Responsive Design
       so on..
 3. **CSS(SASS)**
-   SASS(Syntactically Awesome Stylesheets) is a CSS preprocessor that adds features like variables, nested rules, and mixins, making the process of writing CSS more efficient and maintainable.
+   SASS(Syntactically Awesome Stylesheets) is a CSS preprocessor that adds **features** like variables, nested rules, and mixins, making the process of writing CSS more efficient and maintainable.
 4. **Linting and Code Formatting**
    Linting tools analyze the code for potential errors, while code formatting tools ensure the code adheres to a consistent style.
    - **Tools Used**
