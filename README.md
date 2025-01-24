@@ -133,21 +133,24 @@ On Day 2, the focus was on gaining a deeper understanding of Semantic HTML, Acce
 On Day 3, the focus shifted to [JavaScript](https://youtu.be/nZ1DMMsyVyI?si=FhM2LX7-AMRcLV5P)  and [TypeScript](https://youtu.be/gieEQFIfgYc?si=4r1i6W0eKzZNZX9v) concept Like, The Event Loop, Types and Interfaces. We also explored various Authentication techniques (JWT, Session, Cookies, OAuth, SAML) and examined different communication methods used in web development, such as REST, jRPC, gRPC, WebSockets and SSE. Additionally, we worked with Axios for HTTP requests and TANstack for data fetching and state management.
 ### Topics Covered
 **JavaScript** is a dynamic, high-level programming language that is primarily used for building interactive and dynamic web applications. **TypeScript** enhances JavaScript by adding static typing, which helps developers avoid errors early in the development process and creates a more robust codebase, especially for large-scale applications.
-1. **Event Loop**
+
    The event loop continuously checks the call stack and the callback queue. If the call stack is empty, it takes the first function from the callback queue and pushes it onto the call stack for execution. Some resources: [geeksforgeeks](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/) and [ youTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
 2. **Type Aliases/Interfaces in TypeScript** 
       1. **Type Aliases:** Type aliases give a type a new name. They are similar to interfaces in that they can be used to name primitives and any other kinds that you’d have to define by hand otherwise.
    ```syntax
       type AliasName = ExistingType;
    ```
-    
+
       2. **Interfaces** define the structure of an object, specifying property types and method signatures. They act as contracts, ensuring that objects adhere to a particular shape, enhancing type safety and code readability, and enabling features like optional properties, read-only properties, and interface inheritance.
+
    ```syntax
       interface InterfaceName{
       PropertyName: Type;
       methodName() => Type;  
       } 
    ```
+
 3. **Authentication type (JWT/Session/Cookies/OAuth/SAML)**
    1. **JWT (JSON Web Token)** A compact, URL-safe token used to securely transmit information between parties, often used for stateless authentication.
    2. **Session**  A session is a server-side mechanism for storing user-specific data for the duration of a user's interaction with the application. This data helps the server identify and authenticate a user across multiple requests.
