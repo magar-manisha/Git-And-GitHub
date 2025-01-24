@@ -141,7 +141,7 @@ On Day 3, the focus shifted to [JavaScript](https://youtu.be/nZ1DMMsyVyI?si=FhM2
       type AliasName = ExistingType;
    ```
     
-      2. **Interfaces:** define the structure of an object, specifying property types and method signatures. They act as contracts, ensuring that objects adhere to a particular shape, enhancing type safety and code readability, and enabling features like optional properties, read-only properties, and interface inheritance.
+      2. **Interfaces** define the structure of an object, specifying property types and method signatures. They act as contracts, ensuring that objects adhere to a particular shape, enhancing type safety and code readability, and enabling features like optional properties, read-only properties, and interface inheritance.
    ```syntax
       interface InterfaceName{
       PropertyName: Type;
@@ -149,3 +149,22 @@ On Day 3, the focus shifted to [JavaScript](https://youtu.be/nZ1DMMsyVyI?si=FhM2
       } 
    ```
 3. **Authentication type (JWT/Session/Cookies/OAuth/SAML)**
+   1. **JWT (JSON Web Token)** A compact, URL-safe token used to securely transmit information between parties, often used for stateless authentication.
+   2. **Session**  A session is a server-side mechanism for storing user-specific data for the duration of a user's interaction with the application. This data helps the server identify and authenticate a user across multiple requests.
+   3. **Cookies** A cookie is a small piece of data stored on the client-side (browser) that the server sends with HTTP responses. It is sent back to the server with every subsequent request to maintain state.
+   4. **OAuth** A protocol for third-party authentication, allowing secure access without sharing credentials (e.g., logging in with Google/Facebook).
+   5. **SAML (Security Assertion Markup Language)** An XML-based protocol for single sign-on (SSO) to allow authentication across different systems securely.
+  
+4. **(REST, jRPC, gRPC) + WebSockets, SSE, Axiom, TANstack**
+   1. **REST** REST (Representational State Transfer) is a stateless, client-server architecture commonly used in APIs for communication between systems via HTTP methods (GET, POST, PUT, DELETE). Problem of underFetching and overFetching.
+   2. **jRPC (JSON-RPC)** A remote procedure call (RPC) protocol that uses JSON to encode the calls and responses.
+   3. **gRPC** A high-performance, open-source RPC framework developed by Google, using HTTP/2 for transport, Protocol Buffers as the interface definition language, and providing features like bidirectional streaming. some resources: [Youtube](https://youtu.be/gnchfOojMk4?si=gH27POp0nNPIj_Qn)
+   4. **WebSockets** A communication protocol that allows full-duplex communication channels over a single TCP connection, used for real-time applications like chat or live updates.
+   5. **SSE (Server-Sent Events)** A server-sent event is when a web page automatically gets updates from a server.A server-push technology that allows servers to send real-time updates to clients over an HTTP connection. some resources: [w3school](https://www.w3schools.com/html/html5_serversentevents.asp)
+   6. **Axios** Axios is a promise-based HTTP client for JavaScript that allows you to make HTTP requests from the browser or Node.js. Axios is often used to interact with REST APIs, providing an easy way to send asynchronous HTTP requests.
+   7. **TANstack** TANstack is a set of data fetching and state management tools designed to make data handling in React applications more efficient and scalable. For more details, you can refer [tanstack](https://tanstack.com/start/latest)
+      - **key Libraries**
+         1. **React Query** A data-fetching library that simplifies data management and synchronization for remote data in React applications.
+         2. **TanStack Table** A powerful and customizable table library for building tables with React.
+         3. **TanStack Router** A router library designed for building complex applications with React.
+
