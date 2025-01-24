@@ -1,4 +1,6 @@
+
 import { ReactNode } from "react";
+
 
 export interface student{
     name: string;
@@ -18,6 +20,7 @@ export type actor = {
     phoneNo?: string;
     equipment: stringornumber;
 }
+
 
 export interface Transactionobj{
     readonly [index: string]:number
@@ -48,3 +51,4 @@ export interface listProp<T>{
     render: (item:T) => ReactNode
 
 }
+

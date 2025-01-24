@@ -168,20 +168,25 @@ On Day 3, the focus shifted to [JavaScript](https://youtu.be/nZ1DMMsyVyI?si=FhM2
 
 **JavaScript** is a dynamic, high-level programming language that is primarily used for building interactive and dynamic web applications. **TypeScript** enhances JavaScript by adding static typing, which helps developers avoid errors early in the development process and creates a more robust codebase, especially for large-scale applications.
 
+
 1. **Event Loop**
    The event loop continuously checks the call stack and the callback queue. If the call stack is empty, it takes the first function from the callback queue and pushes it onto the call stack for execution. Some resources: [geeksforgeeks](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/) and [ youTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 2. **Type Aliases/Interfaces in TypeScript**
    1. **Type Aliases:** Type aliases give a type a new name. They are similar to interfaces in that they can be used to name primitives and any other kinds that you’d have to define by hand otherwise.
+
    ```syntax
    type AliasName = ExistingType;
    ```
+
    2. **Interfaces** define the structure of an object, specifying property types and method signatures. They act as contracts, ensuring that objects adhere to a particular shape, enhancing type safety and code readability, and enabling features like optional properties, read-only properties, and interface inheritance.
+
    ```syntax
       interface InterfaceName{
       PropertyName: Type;
       methodName() => Type;
       }
    ```
+
 3. **Authentication Methods**
 
    1. **JWT (JSON Web Token)** A compact, URL-safe token used to securely transmit information between parties, often used for stateless authentication.
