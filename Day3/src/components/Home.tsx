@@ -1,5 +1,7 @@
 import { useState } from "react"
-import { student, employe, actor } from "../types/type";
+
+import { student, employe, actor, Transactionobj, Transactionname } from "../types/type";
+
 
 const Home = () => {
   console.log("this is home")
@@ -30,6 +32,21 @@ const Home = () => {
     "equipment": ['guitar', 45, "makeup"]
   }
 
+
+  const todayTransaction: Transactionobj = {
+    "pizza": 5,
+    "book": 6,
+    "job": 2
+  }
+
+  const transactionname: Transactionname = {
+    "name": "manisha",
+    "pizza": 5,
+    "book": 6,
+    "job": 2
+  }
+
+
   const sum = () =>{
     if(typeof num1 == "string" && typeof num2 == 'string'){
       setSum(0);
@@ -59,8 +76,18 @@ const Home = () => {
   }
 
 
+  const conc: string = addorconcat(5, 7, "concat") as string
+
+  // const isTrue = <T>(arg: T): BoolCheck<T> => {
+  //   if (Array.isArray(arg) && arg.length === 0) {
+  //     return { arg, is: false };
+  //   }
+  //   return { arg, is: true };
+  // };
+
   return (
-    <div>
+    <div style={{border:"2px solid", width: "50%",justifyItems:"center"}}>
+
       <h1>Day 3 - Ts/Js</h1>
 
       <p>Count: {count}</p>
@@ -94,7 +121,13 @@ const Home = () => {
       <p>Age from object: {student.age}</p>
       <p>phoneNo from object: {employe.phoneNo}</p>
       <p>Boolean: {actor(leeYoung) ? "It is true" : "It is false"}</p>
-      <p>Add or concat: Lets do concat{addorconcat(5, 7, "concat")}</p>
+
+      <p>Add or concat(assertion eg): Lets do concat{conc}</p>
+      <p>Today Transaction(index eg): {todayTransaction.pizza}</p>
+      
+      <hr/>
+      {Object.keys(transactionname).map((key) => <p>it is an {key} of value {transactionname[key as keyof Transactionname]}</p>)}
+
     </div>
   )
 }

@@ -1,3 +1,7 @@
+
+import { ReactNode } from "react";
+
+
 export interface student{
     name: string;
     roll: string;
@@ -16,3 +20,35 @@ export type actor = {
     phoneNo?: string;
     equipment: stringornumber;
 }
+
+
+export interface Transactionobj{
+    readonly [index: string]:number
+    pizza: number;
+    book: number;
+    job: number;
+}
+
+export interface Transactionname{
+    name: string
+    pizza: number;
+    book: number;
+    job: number;
+}
+
+export interface BoolCheck<T>{
+    arg: T;
+    is: boolean;
+}
+
+export interface sectionProps{
+    title?: string,
+    children: ReactNode,
+}
+
+export interface listProp<T>{
+    items: T[],
+    render: (item:T) => ReactNode
+
+}
+
