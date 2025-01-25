@@ -244,9 +244,20 @@ src/
 ### Learning Resources
 
 1.  YouTube Channels
+   - **[Fireship](https://www.youtube.com/c/Fireship)** 
+   - **[Codevolution](https://www.youtube.com/c/Codevolution)** 
+   - **[Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)** 
+
 2.  Blogs and Articles
+   - **[overreacted](https://overreacted.io/)**
+   - **[joshwcomeau](https://www.joshwcomeau.com/react/)**
+   - **[robinwieruch](https://www.robinwieruch.de/blog/)**
 
 ### Explore Open-Source Projects
+   - [marmelab/react-admin](https://github.com/marmelab/react-admin)
+   - [mattermost/mattermost](https://github.com/mattermost/mattermost)
+   - [persional blog](https://github.com/varHarrie/varharrie.github.io)
+   - [adrianhajdin](https://github.com/adrianhajdin/jsmasterypro_devflow)
 
 # Conclusion
 
