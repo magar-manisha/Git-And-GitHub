@@ -210,11 +210,11 @@ On Day 3, the focus shifted to [JavaScript](https://youtu.be/nZ1DMMsyVyI?si=FhM2
 
 # Internship Documentation - Day 4
 
-## Date: 2025/01/23
+### Date: 2025/01/23
 
-## Focus: Structuring React Code
+### Focus: Structuring React Code
 
-## Learning Objectives:
+### Learning Objectives:
 
 On Day 4, the focus was on understanding best practices for structuring large-scale React codebases. The aim was to explore strategies for managing complexity in React applications, identifying the best resources for self-learning, and analyzing real-world open-source projects for inspiration.
 
